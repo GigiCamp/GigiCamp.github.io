@@ -1,0 +1,76 @@
+html, body {
+    background-color: rgb(55, 55, 167);
+    overflow-x: hidden;
+    height: 100%;
+}
+
+#bio-section {
+    width: 35rem;
+}
+
+.exp-section {
+    width: 35em;
+}
+
+#bio-desc {
+    text-align: justify;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+}
+
+#bio-row {
+    height: 100%;
+    display: flex;
+    align-content: center;
+}
+.exp-row {
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+#bio-col {
+    display: flex;
+    justify-content: center;
+}
+
+.exp-col {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    border-radius: 500px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+footer {
+    background-color: white;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#button-col {
+    display: flex;
+    justify-content: center;
+}
