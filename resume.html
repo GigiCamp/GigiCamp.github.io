@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio - Luigi Camporeale</title>
+    <title>Personal Page - Luigi Camporeale</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-static-top">
             <a class="navbar-brand" href="#" id="website-name">Luigi Camporeale - Personal Page</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,100 +36,119 @@
             </div>
         </nav>
     </header>
-    <div class="row exp-row" style="margin-top:800px">
-        <div style="text-align: center; color: white;">EMPLOYMENT HISTORY</div>
-        <div class="col-md-12 exp-col">
-            <div class="card exp-section">
-                <div class="card-body">
-                    <h4>Full Stack Developer</h4>
-                    <h6>CyberSecurity s.r.l. | 2021 - today</h6>
-                    <hr>
-                    <h5 class="card-title">Description</h5>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Development of systems based on architectural REST
-                            principles and web services focused on performances
-                            and scalability.</li>
-                        <li class="list-group-item"> Management of database schemes and functional
-                            and technical documents, through cooperative tools
-                            such as Confluence</li>
-                        <li class="list-group-item"> Participation to each aspect of a project, from
-                            projectation and development to test execution</li>
-                        <li class="list-group-item"> Maintenance for existing application</li>
-                        <li class="list-group-item"> Responsible for Vocational Training of new employees</li>
-                    </ul>
+    <div class="container" id="resume-btn-container" style="margin-top: 80px;">
+        <div class="btn-group">
+            <button class="btn btn-primary resume-button" type="button" data-toggle="collapse" data-target="#collapse-jobs"
+                aria-expanded="false" aria-controls="collapse-jobs">
+                Employment History
+            </button>
+            <button class="btn btn-primary resume-button" type="button" data-toggle="collapse" data-target="#collapse-education"
+                aria-expanded="false" aria-controls="collapse-education">
+                Education History
+            </button>
+            <button class="btn btn-primary resume-button" type="button" data-toggle="collapse" data-target="#collapse-skills"
+                aria-expanded="false" aria-controls="collapse-skills">
+                Working Skills
+            </button>
+        </div>
+        <div class="row exp-row" id="first-exp">
+            <div class="collapse" id="collapse-jobs">
+                <div class="col-md-12 exp-col">
+                    <div class="card exp-section">
+                        <div class="card-body">
+                            <h4>Full Stack Developer</h4>
+                            <h6>CyberSecurity s.r.l. | 2021 - today</h6>
+                            <hr>
+                            <h5 class="card-title">Description</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Development of systems based on architectural REST
+                                    principles and web services focused on performances
+                                    and scalability.</li>
+                                <li class="list-group-item"> Management of database schemes and functional
+                                    and technical documents, through cooperative tools
+                                    such as Confluence</li>
+                                <li class="list-group-item"> Participation to each aspect of a project, from
+                                    projectation and development to test execution</li>
+                                <li class="list-group-item"> Maintenance for existing application</li>
+                                <li class="list-group-item"> Responsible for Vocational Training of new employees</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 exp-col">
+                    <div class="card exp-section">
+                        <div class="card-body">
+                            <h4>Technical Game Designer</h4>
+                            <h6>Freelance | 2020 - today</h6>
+                            <hr>
+                            <h5 class="card-title">Description</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Management of creative and technical process of a
+                                    videogame creation.</li>
+                                <li class="list-group-item">Management of project planning and writing of
+                                    technical documentation</li>
+                                <li class="list-group-item"> Organization of test and resolution of observed bugs</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-12 exp-col">
-            <div class="card exp-section">
-                <div class="card-body">
-                    <h4>Technical Game Designer</h4>
-                    <h6>Freelance | 2020 - today</h6>
-                    <hr>
-                    <h5 class="card-title">Description</h5>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Management of creative and technical process of a
-                            videogame creation.</li>
-                        <li class="list-group-item">Management of project planning and writing of
-                            technical documentation</li>
-                        <li class="list-group-item"> Organization of test and resolution of observed bugs</li>
-                    </ul>
+            <div class="collapse" id="collapse-education">
+                <div class="col-md-12 exp-col">
+                    <div class="card exp-section">
+                        <div class="card-body">
+                            <h4>IULM University</h4>
+                            <h6>Master's degree in Game Design | 2021</h6>
+                            <hr>
+                            <h5 class="card-title">Description</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">English-taught master.</li>
+                                <li class="list-group-item">Final Exam: creation of a whole video game projected
+                                    in each aspect</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 exp-col">
+                    <div class="card exp-section">
+                        <div class="card-body">
+                            <h4>"Aldo Moro" University</h4>
+                            <h6>Computer science Degree | 2017 - 2020</h6>
+                            <hr>
+                            <h5 class="card-title">Description</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Thesis focused on "Planning and Production of a
+                                    Serious Game", applied on medical field.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div style="text-align: center; color: white;">EDUCATION</div>
-        <div class="col-md-12 exp-col">
-            <div class="card exp-section">
-                <div class="card-body">
-                    <h4>IULM University</h4>
-                    <h6>Master's degree in Game Design | 2021</h6>
-                    <hr>
-                    <h5 class="card-title">Description</h5>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">English-taught master.</li>
-                        <li class="list-group-item">Final Exam: creation of a whole video game projected
-                            in each aspect</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12 exp-col">
-            <div class="card exp-section">
-                <div class="card-body">
-                    <h4>"Aldo Moro" University</h4>
-                    <h6>Computer science Degree | 2017 - 2020</h6>
-                    <hr>
-                    <h5 class="card-title">Description</h5>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Thesis focused on "Planning and Production of a
-                            Serious Game", applied on medical field.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div style="text-align: center; color: white;">WORKING SKILLS</div>
-        <div class="col-md-12 exp-col">
-            <div class="card exp-section">
-                <div class="card-body">
-                    <h4>Technical</h4>
-                    <hr>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Ability to work in group and alone</li>
-                        <li class="list-group-item">Good knowledge of Agile Software Development,
-                            Human Computer Interaction and OOP</li>
-                        <li class="list-group-item">Good knowledge of different programming
-                            languages (C, C++, C#, Java, Python, Go)</li>
-                        <li class="list-group-item">Good knowledge of Unity</li>
-                        <li class="list-group-item">Good knowledge of .NET and Microsoft Azure</li>
-                        <li class="list-group-item">Good knowledge of Git l GitHub flow</li>
-                        <li class="list-group-item">Web development (HTML, CSS, PHP and JavaScript)</li>
-                        <li class="list-group-item">Android development and elementary knowledge of
-                            Google Firebase platform</li>
-                        <li class="list-group-item">Good knowledge of relational database (SQL Server,
-                            MySQL, ecc...) and not relational one (MongoDB,
-                            Cosmos DB)</li>
-                        <li class="list-group-item">Good knowledge of Docker</li>
-                    </ul>
+            <div class="collapse" id="collapse-skills">
+                <div class="col-md-12 exp-col">
+                    <div class="card exp-section">
+                        <div class="card-body">
+                            <h4>Technical</h4>
+                            <hr>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Ability to work in group and alone</li>
+                                <li class="list-group-item">Good knowledge of Agile Software Development,
+                                    Human Computer Interaction and OOP</li>
+                                <li class="list-group-item">Good knowledge of different programming
+                                    languages (C, C++, C#, Java, Python, Go)</li>
+                                <li class="list-group-item">Good knowledge of Unity</li>
+                                <li class="list-group-item">Good knowledge of .NET and Microsoft Azure</li>
+                                <li class="list-group-item">Good knowledge of Git l GitHub flow</li>
+                                <li class="list-group-item">Web development (HTML, CSS, PHP and JavaScript)</li>
+                                <li class="list-group-item">Android development and elementary knowledge of
+                                    Google Firebase platform</li>
+                                <li class="list-group-item">Good knowledge of relational database (SQL Server,
+                                    MySQL, ecc...) and not relational one (MongoDB,
+                                    Cosmos DB)</li>
+                                <li class="list-group-item">Good knowledge of Docker</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -143,9 +162,17 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script>
+        $(".resume-button").on("click", function(e) {
+           $(".resume-button").not(this).toggle();
+        });
+    </script>
 </body>
-
 </html>
